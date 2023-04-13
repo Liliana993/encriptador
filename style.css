@@ -2,10 +2,6 @@ body{
     margin: 0;
     padding: 0;
     background: #E5E5E5;
-    display: grid;
-    gap: 1rem;
-    grid-auto-rows: 22rem;
-    grid-template-columns: repeat(auto-fill, minmax(15 rem, 1fr));
 }
 
 .container{
@@ -14,6 +10,9 @@ body{
     height: 650px;
     padding: 5px;
     background: #F3F5FC;
+    display: gird;
+    gird-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
 }
 
 h1{
